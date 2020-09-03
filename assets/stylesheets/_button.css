@@ -1,0 +1,23 @@
+.button {
+    padding: 0.4rem 2rem;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #32373d;
+    border: 2px solid #32373d;
+    border-radius: 2rem;
+    outline: none;
+    white-space: nowrap;
+}
+
+.button--secondary {
+    color: #32373d;
+    background-color: transparent;
+    margin-left: 1rem;
+}
+
+.button--header {
+    font-weight: 500;
+    padding: 0.45rem 1.8rem;
+}

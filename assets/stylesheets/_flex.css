@@ -1,0 +1,21 @@
+[class^="flex"] {
+    display: flex;
+}
+
+.flex-align-start {
+    align-items: flex-start;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+@media screen and (max-width: 576px) {
+    .flex-column-sm {
+        flex-direction: column;
+    }
+}

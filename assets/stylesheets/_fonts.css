@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "uniform";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/assets/fonts/Uniform.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "uniform";
+    font-style: normal;
+    font-weight: 500;
+    src: url(/assets/fonts/Uniform\ Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "uniform";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/assets/fonts/Uniform\ Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "equip";
+    font-style: normal;
+    font-weight: 500;
+    src: url(/assets/fonts/EquipSlab.ttf) format("truetype");
+}

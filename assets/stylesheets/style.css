@@ -1,0 +1,57 @@
+@import "_normalize.css";
+@import "_fonts.css";
+@import "_flex.css";
+@import "_button.css";
+@import "_header.css";
+@import "_article.css";
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    font-family: "uniform";
+    font-weight: 400;
+    color: #32373d;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    font-weight: 400;
+}
+p {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 48rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    margin: auto;
+}
+
+/************ Media Queries *************/
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
